@@ -1,5 +1,6 @@
 import colorama;
 
+# Variable de tipo texto necesaria para guardar el datos.txt
 contenido = ""
 
 def abrir_txt():
@@ -8,4 +9,5 @@ def abrir_txt():
 		# contenido = cat datos.txt
 	return
 
+# Sintaxis dada para el uso de colorama
 print(Fore.GREEN + contenido)
