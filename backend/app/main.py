@@ -2,7 +2,7 @@ import colorama;
 
 contenido = ""
 
-def abrir_txt:
+def abrir_txt():
 
 	 	# Leer datos.txt(?
 		# contenido = cat datos.txt

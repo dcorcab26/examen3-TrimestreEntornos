@@ -1,4 +1,4 @@
-calcular_precio_final(precio, descuento):
+def calcular_precio_final(precio, descuento):
     
     precio_final = 0
     
