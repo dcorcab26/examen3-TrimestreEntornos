@@ -1,8 +1,8 @@
 FROM python:3.9
 
-WORKDIR /examen
+WORKDIR /app
 
-COPY . /examen
+COPY . /app
 
 RUN pip install -r requirements.txt
 
