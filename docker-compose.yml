@@ -3,7 +3,8 @@ services:
   app:
     build: .
     ports:
-       - "3000:3000"
+       - "3306:3000"
   database:
     image:postgres
-
+  volumes:
+    - .backend:/app
